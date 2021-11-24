@@ -1,5 +1,7 @@
-var name = prompt("enter you name here...");
-var surname = prompt("enter you surname here...");
-var city = prompt("enter your city here...?");
+function hello() {
+    var name = document.getElementById("name").value;
+    var surname = document.getElementById("surname").value;
+    var city = document.getElementById("city").value;
 
-alert ("name : " +name +"\nsurname : " +surname +"\ncity : " +city );
+    alert("Name : " + name + "\nSurname : " + surname + "\nCity : " + city);
+}
