@@ -1,6 +1,7 @@
-function change(){
-    document.getElementById("image1").src="images/image1_2.jpg";
-} 
-function old(){
-    document.getElementById("image1").src="images/image1.jpg";
-}
+let x = document.querySelector("img");
+x.addEventListener("mouseover",  function() {
+    x.src="images/image1_2.jpg";
+}) 
+x.addEventListener("mouseout", function(){
+    x.src="images/image1.jpg";
+});
